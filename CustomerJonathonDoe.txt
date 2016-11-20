@@ -1,0 +1,95 @@
+Core\User\Customer Object
+(
+    [firstName] => Jonathon
+    [lastName] => Doe
+    [email] => Array
+        (
+            [default] => Core\User\Email Object
+                (
+                    [id] => 2311
+                    [type] => work
+                    [email] => jdoe@somewhere.org
+                    [default] => 1
+                )
+
+            [0] => Core\User\Email Object
+                (
+                    [id] => 7775
+                    [type] => personal
+                    [email] => johnathon.doe@gmail.com
+                    [default] => 
+                )
+
+        )
+
+    [phone] => Array
+        (
+            [default] => Core\User\Phone Object
+                (
+                    [id] => 7673
+                    [type] => work
+                    [number] => 2124583322
+                    [extention] => 223
+                    [default] => 1
+                )
+
+            [0] => Core\User\Phone Object
+                (
+                    [id] => 24332
+                    [type] => cell
+                    [number] => 9173348484
+                    [extention] => 
+                    [default] => 
+                )
+
+        )
+
+    [address] => Array
+        (
+            [0] => Core\User\Address Object
+                (
+                    [id] => 232
+                    [label] => Home
+                    [type] => shipping
+                    [address1] => 4854 Embassy Drive
+                    [address2] => Building 8
+                    [state] => VA
+                    [zip] => 20184
+                    [default] => 
+                )
+
+            [default] => Core\User\Address Object
+                (
+                    [id] => 233
+                    [label] => Work
+                    [type] => shipping
+                    [address1] => 4854 South 4th Street
+                    [address2] => Suite 705
+                    [state] => NJ
+                    [zip] => 10475-4392
+                    [default] => 1
+                )
+
+            [1] => Core\User\Address Object
+                (
+                    [id] => 252
+                    [label] => Parents
+                    [type] => billing
+                    [address1] => 4854 South 4th Street
+                    [address2] => Suite 705
+                    [state] => NJ
+                    [zip] => 10475-4392
+                    [default] => 
+                )
+
+        )
+
+)
+Default Phone number 2124583322
+Core\User\Email Object
+(
+    [id] => 2311
+    [type] => work
+    [email] => jdoe@somewhere.org
+    [default] => 1
+)
